@@ -10,7 +10,7 @@
 <li> cd V-Verma</li>
 <li> chmod +x * </li>
 <li> bash setup.sh </li>
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 <h1> STAY CONNECTED WITH US :- </h1>
 <a href="https://github.com/thecrazyverma"><b>Github</b></a><br>
 <a href="https://www.instagram.com/the_crazy_verma"><b>Instagram</b></a><br>
