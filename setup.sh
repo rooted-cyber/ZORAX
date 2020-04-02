@@ -39,6 +39,7 @@ git clone https://github.com/thecrazyverma/VAMPIRZ.git
 git clone https://github.com/Amerlaceset/Amer.git
 git clone https://github.com/XCHADXFAQ77X/XERXES.git
 
+cd ..
 printf "${red}Installing${null}${yelw} Metasploit Framework ...${null} \n"
 pkg install unstable-repo
 pkg install metasploit
