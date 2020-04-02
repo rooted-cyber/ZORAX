@@ -7,7 +7,7 @@
 <h1><u>#_> Steps to install:-</u></h1>
 <br><br><br><br><br>
 <li> git clone https://github.com/thecrazyverma/V-Verma</li>
-<li> cd V-Verma<li>
+<li> cd V-Verma</li>
 <li> chmod +x * </li>
 <li> bash setup.sh </li>
 <br><br><br><br><br><br><br><br><br><br><br><br>
