@@ -6,15 +6,15 @@
 
 <h1><u>#_> Steps to install:-</u></h1>
 <br><br><br><br><br>
-<li> git clone https://github.com/thecrazyverma</li>
-<li> cd <li>
+<li> git clone https://github.com/thecrazyverma/V-Verma</li>
+<li> cd V-Verma<li>
 <li> chmod +x * </li>
 <li> bash setup.sh </li>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <h1> STAY CONNECTED WITH US :- </h1>
-<a href="https://github.com/thecrazyverma"><b>Github</b></a>
-<a href="https://www.instagram.com/the_crazy_verma"><b>Instagram</b></a>
-<a href="https://youtube.com/c/VermaKTechnology"><b>YouTube</b></a>
-<a href="mailto:st981243@gmail.com"><b>Email</b></a>
+<a href="https://github.com/thecrazyverma"><b>Github</b></a><br>
+<a href="https://www.instagram.com/the_crazy_verma"><b>Instagram</b></a><br>
+<a href="https://youtube.com/c/VermaKTechnology"><b>YouTube</b></a><br>
+<a href="mailto:st981243@gmail.com"><b>Email</b></a><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <h1> THANKS FOR USING OUR TOOL :) </h1>
