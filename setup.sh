@@ -1,5 +1,10 @@
 # This Tool is made by Sandeep Verma </::/> VAMPIER VERMA </::/>
 # Look inside you Before you copy the code and take Credit
+red='\033[1;31m'
+lpr='\033[1;35m'
+yelw='\033[1;33m'
+null='\033[0m'
+gr='\033[0;32m'
 
 printf "\e[1;96m Installing requirements...\e[0m \n" 
 apt install python
@@ -22,10 +27,25 @@ apt install pip
 printf "\e[1;96m Installing pip requirements \e[0m \n" 
 pip install lolcat
 
-clear
-printf "We are Ready to Go..." | lolcat --animate
+mkdir tools
+cd tools
+git clone https://github.com/sqlmapproject/sqlmap.git
+git clone https://github.com/xHak9x/fbi.git
+git clone https://github.com/thecrazyverma/TBomb-V-2.0
+git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+git clone https://github.com/rooted-cyber/H-Cam.git
+git clone https://github.com/rooted-cyber/seeker-2.git
+git clone https://github.com/thecrazyverma/VAMPIRZ.git
+git clone https://github.com/Amerlaceset/Amer.git
+git clone https://github.com/XCHADXFAQ77X/XERXES.git
 
-printf "\e[1;96m Now you can run this tool by typing :>\e[0m  bash T-Verma.sh \n"
+printf "${red}Installing${null}${yelw} Metasploit Framework ...${null} \n"
+pkg install unstable-repo
+pkg install metasploit
+clear
+figlet -f standard "DONE" | lolcat
+clear
+printf "We are Ready to Go... In Just 3 seconds" | lolcat --animate
 
 sleep 3
 clear
