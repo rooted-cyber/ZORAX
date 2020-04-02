@@ -3,9 +3,9 @@
 
 <p><b>V-Verma</b> is a tool containing some basic and important tools which are very useful to the new begining <b>Hackers</b> and <b>Pentesters.</b></p>
 <p>Some tools like Sqlmap and Metasploit are also added in this tool. One of its limitation is that it is not tested in all Linux systems and Terminals. Because of this you may face some error. But this is completely Comfortable with Android Terminal <b>Termux</b>.
-
-<h1><u>#_> Steps to install:-</u></h1>
 <br><br><br><br><br>
+<h1><u>#_> Steps to install:-</u></h1>
+<br><br>
 <li> git clone https://github.com/thecrazyverma/V-Verma</li>
 <li> cd V-Verma</li>
 <li> chmod +x * </li>
