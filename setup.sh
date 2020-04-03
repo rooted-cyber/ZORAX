@@ -30,7 +30,7 @@ pip install lolcat
 mkdir tools
 cd tools
 git clone https://github.com/sqlmapproject/sqlmap.git
-git clone https://github.com/xHak9x/fbi.git
+git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 git clone https://github.com/thecrazyverma/TBomb-V-2.0
 git clone https://github.com/DarkSecDevelopers/HiddenEye.git
 git clone https://github.com/rooted-cyber/H-Cam.git
@@ -39,7 +39,6 @@ git clone https://github.com/thecrazyverma/VAMPIRZ.git
 git clone https://github.com/Amerlaceset/Amer.git
 git clone https://github.com/XCHADXFAQ77X/XERXES.git
 
-cd ..
 printf "${red}Installing${null}${yelw} Metasploit Framework ...${null} \n"
 pkg install unstable-repo
 pkg install metasploit
