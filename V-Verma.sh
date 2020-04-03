@@ -9,7 +9,7 @@ gr='\033[0;32m'
 echo "*********************************************************************" | lolcat
 echo "       [\:\> HACKING AND PENTESTING WITH VAMPIER VERMA </:/]" | lolcat --animate
 echo "*********************************************************************" | lolcat
-toilet -f mono12 "V-VERMA" | lolcat
+toilet -f mono12 "T-VERMA" | lolcat
 echo "*********************************************************************" | lolcat
 echo "      #_> THIS TOOL IS MADE BY VAMPIER >> [> SANDEEP VERMA <]" | lolcat --animate
 echo "*********************************************************************" | lolcat
@@ -23,7 +23,7 @@ printf "${red}(03)${null} ${gr}VAMPIRZ${null}     ( Crashing victim's Browser )\
 printf "${red}(04)${null} ${gr}SQLMAP${null}      ( Database Vuln. Testing )\n"
 printf "${red}(05)${null} ${gr}Metasploit${null}  ( Exploiting )\n"
 printf "${red}(06)${null} ${gr}Amer${null}        ( Making Virus for Android )\n"
-printf "${red}(07)${null} ${gr}FBI${null}         ( Facebook Information Gathering )\n"
+printf "${red}(07)${null} ${gr}RED HAWK${null}    ( Web Vuln. Scanner )\n"
 printf "${red}(08)${null} ${gr}Seeker-2${null}    ( Track Exact Location )\n"
 printf "${red}(09)${null} ${gr}HiddenEye${null}   ( Generate Phishing Links )\n"
 printf "${red}(10)${null} ${gr}Xerxes${null}      ( DDos Attack to Down any web server )\n"
@@ -113,12 +113,10 @@ bash Amer.sh
 fi 
 
 if [[ $ch == 7 ]]; then
-printf "${red}Running${null}${yelw} FBI ...${null} \n"
-cd tools/fbi
+printf "${red}Running${null}${yelw} RED HAWK ...${null} \n"
+cd tools/RED_HAWK
 chmod +x *
-pip3 install -r requirements.txt
-clear
-python3 fbi.py
+php rhawk.php
 
 fi
 
