@@ -12,6 +12,7 @@ apt install python2
 apt install python3
 apt install curl
 apt install php
+apt install clang
 apt install figlet
 apt install toilet
 apt install wget
