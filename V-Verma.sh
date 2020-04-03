@@ -9,7 +9,7 @@ gr='\033[0;32m'
 echo "*********************************************************************" | lolcat
 echo "       [\:\> HACKING AND PENTESTING WITH VAMPIER VERMA </:/]" | lolcat --animate
 echo "*********************************************************************" | lolcat
-toilet -f mono12 "T-VERMA" | lolcat
+toilet -f mono12 "V-VERMA" | lolcat
 echo "*********************************************************************" | lolcat
 echo "      #_> THIS TOOL IS MADE BY VAMPIER >> [> SANDEEP VERMA <]" | lolcat --animate
 echo "*********************************************************************" | lolcat
