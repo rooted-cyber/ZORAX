@@ -12,9 +12,9 @@
 <li> bash setup.sh </li>
 <br><br><br><br><br>
 <h1> STAY CONNECTED WITH US :- </h1>
-Github    :> <a href="https://github.com/thecrazyverma">https://github.com/thecrazyverma</a><br><br>
-Instagram :> <a href="https://www.instagram.com/the_crazy_verma">https://www.instagram.com/the_crazy_verma</a><br><br>
-YouTube   :> <a href="https://youtube.com/c/VermaKTechnology">https://youtube.com/c/VermaKTechnology</a><br><br>
-Email     :> <a href="mailto:st981243@gmail.com">st981243@gmail.com</a><br><br>
+Github     :>  https://github.com/thecrazyverma<br><br>
+Instagram  :>  https://www.instagram.com/the_crazy_verma<br><br>
+YouTube.   :>  https://youtube.com/c/VermaKTechnology<br><br>
+Email      :> <a href="mailto:st981243@gmail.com">st981243@gmail.com</a><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <h1> THANKS FOR USING OUR TOOL :) </h1>
