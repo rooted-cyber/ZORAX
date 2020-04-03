@@ -59,12 +59,18 @@ bash vampirz.sh
 
 fi 
 
-if [[ $ch == 4 ]]; then 
+if [[ $ch == 4 ]]; then
 printf "${red}Running${null}${yelw} SQLMAP ...${null} \n"
 cd tools/sqlmap
 chmod +x *
 clear
-python sqlmap.py
+figlet -f standard "SQLMAP" | lolcat
+echo
+echo
+printf "${yelw}[+] Enter Target URL [+]:>${null}"
+read url
+
+python sqlmap.py -u $url
 
 fi
 
