@@ -49,5 +49,5 @@ printf "We are Ready to Go... In Just 3 seconds" | lolcat --animate
 
 sleep 3
 clear
-printf "${yelw}TYPE THIS COMMAND TO PROCEED :>${null}bash V-Verma.sh\n"
+printf "${yelw}TYPE THIS COMMAND TO PROCEED :>${null}bash Zorax.sh\n"
 
